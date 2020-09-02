@@ -29,18 +29,18 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yahoo/k8s-athenz-syncer/pkg/controller"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/cron"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/crypto"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/identity"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/util"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/controller"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/cron"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/crypto"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/identity"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/util"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
 	"github.com/yahoo/athenz/clients/go/zms"
-	athenzClientset "github.com/yahoo/k8s-athenz-syncer/pkg/client/clientset/versioned"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
-	r "github.com/yahoo/k8s-athenz-syncer/pkg/reloader"
+	athenzClientset "github.com/zlabjp/k8s-athenz-syncer/pkg/client/clientset/versioned"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
+	r "github.com/zlabjp/k8s-athenz-syncer/pkg/reloader"
 )
 
 // getClients retrieve the Kubernetes cluster client and Athenz client

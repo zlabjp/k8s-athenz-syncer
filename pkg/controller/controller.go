@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/ardielle/ardielle-go/rdl"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/cr"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/cr"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/fields"
 
@@ -33,11 +33,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 
 	"github.com/yahoo/athenz/clients/go/zms"
-	athenzClientset "github.com/yahoo/k8s-athenz-syncer/pkg/client/clientset/versioned"
-	athenzInformer "github.com/yahoo/k8s-athenz-syncer/pkg/client/informers/externalversions/athenz/v1"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/cron"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/ratelimiter"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/util"
+	athenzClientset "github.com/zlabjp/k8s-athenz-syncer/pkg/client/clientset/versioned"
+	athenzInformer "github.com/zlabjp/k8s-athenz-syncer/pkg/client/informers/externalversions/athenz/v1"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/cron"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/ratelimiter"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/util"
 )
 
 const (

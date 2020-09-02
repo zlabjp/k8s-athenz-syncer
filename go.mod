@@ -1,4 +1,4 @@
-module github.com/yahoo/k8s-athenz-syncer
+module github.com/zlabjp/k8s-athenz-syncer
 
 go 1.14
 

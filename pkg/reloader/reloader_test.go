@@ -33,7 +33,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/tevino/abool"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
 )
 
 var (

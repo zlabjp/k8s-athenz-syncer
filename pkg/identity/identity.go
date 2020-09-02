@@ -19,8 +19,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/yahoo/athenz/clients/go/zms"
 	"github.com/yahoo/athenz/libs/go/zmssvctoken"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/crypto"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/crypto"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
 )
 
 const (

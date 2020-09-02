@@ -22,9 +22,9 @@ import (
 
 	"github.com/cenkalti/backoff"
 	"github.com/yahoo/athenz/clients/go/zms"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/cr"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/util"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/cr"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/util"
 	corev1 "k8s.io/api/core/v1"
 	apiError "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

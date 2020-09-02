@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/yahoo/athenz/clients/go/zms"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/crypto"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/log"
-	"github.com/yahoo/k8s-athenz-syncer/pkg/test"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/crypto"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/log"
+	"github.com/zlabjp/k8s-athenz-syncer/pkg/test"
 )
 
 const (
